@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Ensaio de Tração
+        </title>
+        <link rel="stylesheet" href="css/style.css">
+        <meta charset="utf-8">
+        
+        <script  src="js/highcharts.js">
+        </script>        
+    </head>
+    
+    <body>
+        <header>
+            <h1>
+                Ensaio de Tração
+            </h1>            
+        </header> 
+        <p>
+            O teste irá gerar um gráfico de tensão por deformação.
+        </p>    
+
+        <div id="grafico" class="container"></div>   
+        <button onclick="exportToCsv()">Exportar tabela</button>
+        <button onclick="toogleState1()">Iniciar grafico</button>
+        <button onclick="toogleState0()">Parar grafico</button>
+        <script>
+        var chartT = new Highcharts.Chart({
+            chart:{ renderTo : 'grafico' },
+            title: { text: 'Grafico de Tração' },
+            series: [{
+              showInLegend: false,
+              data: []
+            }],
+            plotOptions: {
+              line: { animation: false,
+                dataLabels: { enabled: true }
+              },
+              series: { color: '#059e8a' }
+            },
+            xAxis: { 
+              title: { text: 'Deformação %'}
+            },
+            yAxis: {
+              title: { text: 'Tensão MPa' }
+            },
+            credits: { enabled: false }
+          });
+ 
+          var Results = [
+            ["Tração", "Deformação"]
+          ];
+          
+          Results.push([30,200]);
+          exportToCsv = function() {
+            var CsvString = "";
+            Results.forEach(function(RowItem, RowIndex) {
+              RowItem.forEach(function(ColItem, ColIndex) {
+                CsvString += ColItem + ',';
+              });
+              CsvString += "\r\n";
+            });
+            CsvString = "data:application/csv," + encodeURIComponent(CsvString);
+           var x = document.createElement("A");
+           x.setAttribute("href", CsvString );
+           x.setAttribute("download","somedata.csv");
+           document.body.appendChild(x);
+           x.click();
+          }
+
+          var estado = 0;
+
+          toogleState1 = function(){
+            estado = 1;
+          }
+          toogleState0 = function(){
+            estado = 0;
+          }
+
+          setInterval(function timer ( ) {
+            if(estado==1){
+              var xhttp = new XMLHttpRequest();
+              xhttp.onreadystatechange = function() {
+              if (this.readyState == 4 && this.status == 200) {
+                    x = parseFloat(this.responseText);
+                }
+              };
+
+              xhttp.open("GET", "/tracaod", true);
+              xhttp.send();
+
+              var xhttp2 = new XMLHttpRequest();
+              xhttp2.onreadystatechange = function() {
+                if (this.readyState == 4 && this.status == 200) {                  
+                    y = parseFloat(this.responseText);
+                }
+              };       
+
+              xhttp2.open("GET", "/tracaoc", true);
+              xhttp2.send();  
+
+              if(chartT.series[0].data.length > 40) {
+                chartT.series[0].addPoint([x, y], true, true, true);
+              } else {
+                chartT.series[0].addPoint([x, y], true, false, true);
+              } 
+              Results.push([x,y]);
+            }            
+        }, 1000 ) ;     
+                               
+        </script>
+        <footer>
+            <figure id="girl">
+                <img src="img/13301545.jpg" alt="Anime">
+            </figure>
+            <div id="textrod">
+                Celso Vidal, Mateus Gomes, Eduardo Albuquerque.
+                Universidade Federal de São jõao del Rei. 
+                Ouro Branco, 2019.
+            </div>    
+        </footer>             
+    </body>
+</html>
+
+
+
+ 

@@ -1,0 +1,38 @@
+header{
+    text-align: center;
+}
+header{
+    font-family: Consolas;
+    margin-left: 10px;
+}
+p{
+    font-family: Consolas;
+    margin-left: 10px;
+}
+body{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+#grafico{
+    margin: 0 auto;
+    min-width: 400px;
+    max-width: 800px;
+}
+
+button{
+    font-family:Consolas;
+    margin: 0 auto;
+}
+
+#girl {
+    display: inline;
+    vertical-align: middle;
+    margin-left: 10px;
+    
+}
+#textrod{ 
+    display: inline;
+    text-align: left;
+    font-family: Consolas;
+}
