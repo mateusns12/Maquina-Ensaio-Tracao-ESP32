@@ -1,0 +1,20 @@
+C:\Users\Mateus\source\repos\ConsoleESP32 - Ensaio\ConsoleESP32 - Ensaio\obj\Debug\ConsoleESP32 - Ensaio.csprojAssemblyReference.cache
+C:\Users\Mateus\source\repos\ConsoleESP32 - Ensaio\ConsoleESP32 - Ensaio\obj\Debug\ConsoleESP32___Ensaio.Form1.resources
+C:\Users\Mateus\source\repos\ConsoleESP32 - Ensaio\ConsoleESP32 - Ensaio\obj\Debug\ConsoleESP32___Ensaio.Properties.Resources.resources
+C:\Users\Mateus\source\repos\ConsoleESP32 - Ensaio\ConsoleESP32 - Ensaio\obj\Debug\ConsoleESP32 - Ensaio.csproj.GenerateResource.cache
+C:\Users\Mateus\source\repos\ConsoleESP32 - Ensaio\ConsoleESP32 - Ensaio\bin\Debug\ConsoleESP32 - Ensaio.exe.config
+C:\Users\Mateus\source\repos\ConsoleESP32 - Ensaio\ConsoleESP32 - Ensaio\bin\Debug\ConsoleESP32 - Ensaio.exe
+C:\Users\Mateus\source\repos\ConsoleESP32 - Ensaio\ConsoleESP32 - Ensaio\bin\Debug\ConsoleESP32 - Ensaio.pdb
+C:\Users\Mateus\source\repos\ConsoleESP32 - Ensaio\ConsoleESP32 - Ensaio\obj\Debug\ConsoleESP32 - Ensaio.exe
+C:\Users\Mateus\source\repos\ConsoleESP32 - Ensaio\ConsoleESP32 - Ensaio\obj\Debug\ConsoleESP32 - Ensaio.pdb
+C:\Users\HOME\Documents\Maquina de Rina\ConsoleESP32 - Ensaio\ConsoleESP32 - Ensaio\bin\Debug\ConsoleESP32 - Ensaio.exe.config
+C:\Users\HOME\Documents\Maquina de Rina\ConsoleESP32 - Ensaio\ConsoleESP32 - Ensaio\bin\Debug\ConsoleESP32 - Ensaio.exe
+C:\Users\HOME\Documents\Maquina de Rina\ConsoleESP32 - Ensaio\ConsoleESP32 - Ensaio\bin\Debug\ConsoleESP32 - Ensaio.pdb
+C:\Users\HOME\Documents\Maquina de Rina\ConsoleESP32 - Ensaio\ConsoleESP32 - Ensaio\obj\Debug\ConsoleESP32 - Ensaio.csproj.AssemblyReference.cache
+C:\Users\HOME\Documents\Maquina de Rina\ConsoleESP32 - Ensaio\ConsoleESP32 - Ensaio\obj\Debug\ConsoleESP32 - Ensaio.csproj.SuggestedBindingRedirects.cache
+C:\Users\HOME\Documents\Maquina de Rina\ConsoleESP32 - Ensaio\ConsoleESP32 - Ensaio\obj\Debug\ConsoleESP32___Ensaio.Form1.resources
+C:\Users\HOME\Documents\Maquina de Rina\ConsoleESP32 - Ensaio\ConsoleESP32 - Ensaio\obj\Debug\ConsoleESP32___Ensaio.Properties.Resources.resources
+C:\Users\HOME\Documents\Maquina de Rina\ConsoleESP32 - Ensaio\ConsoleESP32 - Ensaio\obj\Debug\ConsoleESP32 - Ensaio.csproj.GenerateResource.cache
+C:\Users\HOME\Documents\Maquina de Rina\ConsoleESP32 - Ensaio\ConsoleESP32 - Ensaio\obj\Debug\ConsoleESP32 - Ensaio.csproj.CoreCompileInputs.cache
+C:\Users\HOME\Documents\Maquina de Rina\ConsoleESP32 - Ensaio\ConsoleESP32 - Ensaio\obj\Debug\ConsoleESP32 - Ensaio.exe
+C:\Users\HOME\Documents\Maquina de Rina\ConsoleESP32 - Ensaio\ConsoleESP32 - Ensaio\obj\Debug\ConsoleESP32 - Ensaio.pdb
