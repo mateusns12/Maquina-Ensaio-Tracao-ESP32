@@ -41,3 +41,7 @@ It is necessary to repair and develop the following:
     - No classes defined, non objected oriented programming.
 
     - Organization and documentation.
+
+# License
+
+This project is under MIT License
