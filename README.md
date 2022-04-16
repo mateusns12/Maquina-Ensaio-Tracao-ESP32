@@ -1,9 +1,11 @@
 # Máquina de Ensaio de Tração [DEPRECATED]
 
+![Board]
+![Language]
+![System]
+![Framework]
 
 ### *This version will no longer be updated, apart of documentation. New **link** for Version 2.0 soon.*
-
-
 
 # Original code developed for "Máquina de Ensaio de Tração" Version 1.0
 
@@ -45,3 +47,14 @@ It is necessary to repair and develop the following:
 # License
 
 This project is under MIT License
+
+
+[//]: # (LINKS)
+
+[Board]: <https://img.shields.io/badge/Board-ESP32-A70000?style=for-the-badge&logo=espressif>
+
+[Language]: <https://img.shields.io/badge/Language-C++17-00599C?style=for-the-badge&logo=cplusplus>
+
+[Framework]: <https://img.shields.io/badge/Framework-NET 4.5.2-512BD4?style=for-the-badge&logo=dotnet>
+
+[System]: <https://img.shields.io/badge/System-windows-A100FF?style=for-the-badge&logo=windows>
